@@ -105,7 +105,7 @@ elif test -d $cache_dir/bower_components; then
 fi
 
 status "Installing grunt"
-npm install grunt-cli
+npm install grunt-cli -g
 npm install grunt
 
 status "Installing bower which is required by other dependencies"
